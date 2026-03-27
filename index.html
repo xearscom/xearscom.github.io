@@ -1,82 +1,79 @@
-<!DOCTYPE html>
-<html lang="ru">
+<html>
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">    
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>.xears member links</title>
+    <title>.xearsweb</title>
     <link rel="icon" href="icon.png" type="image/png"> 
+
     <style>
-        body, html {
-            height: 100%;
-            margin: 1;
-            font-family: Silkscreen;
-            color: white;
-            display: flex;
-            justify-content: left;
-            align-items: center;
-            text-align: center;
-            /*transform: translateY(-50%);*/
-        }
-        #video-background {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-            object-fit: cover;
-        }
-        .overlay {
-            position: absolute;
-            top: 50%;
-            left: 100px;
-            /*transform: translateY(-50%);*/
-            z-index: 1;
-            font-size: 24px;
-        }
-        
-        p {
-            text-align: left;
-            font-size: 16px; /* Размер шрифта для параграфов */
-        }
-        a {
-            color: #f0f0f0; /* Цвет ссылки */
-            text-decoration: none;
-            display: block; /* Делает ссылки блочными для новой строки */
-            margin-top: 5px; /* Отступ между ссылками(ㅤㅤㅤㅤ) */
-            font-size: 18px;
-        }
-        a:hover {
-            text-decoration: underline;
-            font-size: 18px;
-        }
-    </style>
+            body, html {
+                font-family: "Pixelify Sans", sans-serif;
+                height: 100%;
+                margin: 1;
+                color: #c0c0c0;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            #video-background {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                object-fit: cover;
+            }
+            .head {
+                margin-left: 15px;
+                margin-top: 15px;
+                font-size: 22px;
+            
+            }
+            .main {
+                margin-left: 15px;
+                margin-bottom: 15px;
+                vertical-align: bottom;
+                font-size: 18px;
+                
+            }
+            p {
+                text-align: left;
+                font-size: 16px; /* Размер шрифта для параграфов */
+            }
+            a {
+                color: #c0c0c0; /* Цвет ссылки */
+                text-decoration: none;
+                /*display: block; /* Делает ссылки блочными для новой строки */
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+        </style>
 </head>
 <body>
+    <!--
     <audio id="backgroundMusic" autoplay loop>
-        <source src="fonfon.ogg" type="audio/ogg"> <!-- Укажите путь к вашему аудиофайлу -->
-        Ваш браузер не поддерживает аудио.
-    </audio>
+        <source src="music.ogg" type="audio/ogg">
+    </audio> -->
     <video id="video-background" autoplay loop muted>
-        <source src="movieout.13.mp4" type="video/mp4">
+        <source src="backgroundvideo.mp4" type="video/mp4">
         Ваш браузер не поддерживает видео.
     </video>
-
-    <div class=".overlay">
-        <p>
-        <a href="https://t.me/xearscom">.†</a>
-
-        <p>        404
-        <p>        soon...////
-        <!-- <a href="https://t.me/ProdByKyaru">/ Telegram</a> -->
-        <!-- <a href="https://soundcloud.com/kyaru_cute">/ SoundCloud</a> -->
-        <!-- <a href="https://www.youtube.com/@KyaruCute">/ Youtube</a> -->
-        <!-- <a href="https://www.tiktok.com/@kyaru_cute?_t=ZS-8xzSMX9WiMU&_r=1">/ TikTok</a> -->
+    
+    <div class="head">
+        <a href="https://xearscom.github.io">.†††</a>
     </div>
 
+    <div class="main">
+        <a href="https://t.me/ProdByKyaru">discord server</a><br>
+        <a href="https://t.me/ProdByKyaru">telegram</a><br>        
+        <a></a><br>
+        <a>.xears 2026</a><br>
+    </div>
 </body>
 </html>
